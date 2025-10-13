@@ -1,6 +1,8 @@
 title: Eki's homepage
 description: Passionate offsec researcher
 show_downloads: true
+linkedin:
+  profile: https://www.linkedin.com/in/yuliyan-marinov-8a557b228
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
