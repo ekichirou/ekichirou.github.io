@@ -384,7 +384,7 @@ mark {
 
 .section-heading h2 {
   margin: 0;
-  font-size: clamp(2.4rem, 6vw, 4.6rem);
+  font-size: clamp(2.5rem, 0vw, 0rem);
   line-height: 0.86;
   text-transform: uppercase;
 }
