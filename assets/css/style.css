@@ -740,3 +740,40 @@ mark {
     transition-duration: 0.001ms !important;
   }
 }
+
+.project-more {
+  display: flex;
+  justify-content: center;
+  padding-top: clamp(1.3rem, 3vw, 2.4rem);
+}
+
+.explore-more {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.4rem;
+  border: 2px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.explore-more::after {
+  margin-left: 0.55rem;
+  color: var(--red);
+  content: ">";
+}
+
+.explore-more:hover,
+.explore-more:focus-visible {
+  transform: translateY(-3px);
+  background: var(--paper);
+  color: var(--ink);
+}
