@@ -5,6 +5,8 @@
   --red: #ff2e55;
   --lime: #4df56b;
   --line: rgba(34, 38, 51, 0.14);
+  --blue: #00a7ff;
+  --purple: #9b5cff;
   color-scheme: light;
   font-family: "Rajdhani", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
@@ -384,7 +386,7 @@ mark {
 
 .section-heading h2 {
   margin: 0;
-  font-size: clamp(2.5rem, 0vw, 0rem); /*clamp(2.4rem, 6vw, 4.6rem);*/
+  font-size: clamp(3rem, 0vw, 0rem); /*clamp(2.4rem, 6vw, 4.6rem);*/
   line-height: 0.86;
   text-transform: uppercase;
 }
@@ -417,7 +419,7 @@ mark {
   position: absolute;
   inset: 0 auto 0 0;
   width: 4px;
-  background: linear-gradient(var(--red), var(--cyan), var(--lime));
+  background: linear-gradient(180deg, var(--red), var(--blue), var(--purple));
   content: "";
 }
 
